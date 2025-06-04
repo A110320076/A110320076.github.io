@@ -1,0 +1,36 @@
+*
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    line-height: 1.2;
+    color: #2e4053;
+  }
+
+#about{
+        background: fixed url(../assets/img/back.JPG) center center;
+        background-size: cover;
+}
+
+
+.bg-primary {
+    background-color: transparent !important;
+    background-image: url(../assets/img/blue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+body {
+    color: #2e4053;
+    --bs-link-color:#B0C4DE;
+    --bs-link-hover-color:#2e4053;
+  }
+
+  h1 span{
+    font-size:50px;
+    color:#2e4053;
+}
