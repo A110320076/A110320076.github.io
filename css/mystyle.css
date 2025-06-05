@@ -9,6 +9,19 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
     color: #2e4053;
   }
 
+  .text-primary {
+    color: #fff !important;
+  }
+  
+  .info-box {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    border-radius: 20px;
+    color: #2e4053;
+    display: inline-block;
+    max-width: 700px;    
+  }
+  
 #about{
         background: fixed url(../assets/img/back.JPG) center center;
         background-size: cover;
@@ -45,7 +58,7 @@ background-size: cover;
 
 body {
     color: #2e4053;
-    --bs-link-color:#B0C4DE;
+    --bs-link-color:#fff;
     --bs-link-hover-color:#2e4053;
   }
 
@@ -62,6 +75,6 @@ body {
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 18px;
   font-weight: 100;
-  max-width: 50%;     /* 控制最大寬度，可以視情況調整成 50%、40% 等 */
-  margin: 0 auto;     /* 置中 */
+  max-width: 50%;
+  margin: 0 auto;
 }
