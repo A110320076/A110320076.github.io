@@ -15,6 +15,25 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 }
 
 
+#experience{
+background-color: #B0C4DE;
+background-size: cover;
+}
+
+#interests{
+background-color: #B0C4DE;
+background-size: cover;
+}
+
+#education{
+background-color: #B0C4DE;
+background-size: cover;
+}
+#skills{
+background-color: #B0C4DE;
+background-size: cover;
+}
+
 .bg-primary {
     background-color: transparent !important;
     background-image: url(../assets/img/blue.png);
@@ -33,4 +52,8 @@ body {
   h1 span{
     font-size:50px;
     color:#2e4053;
+}
+
+carousel-caption d-none d-md-block{
+    color: #2e4053;
 }
